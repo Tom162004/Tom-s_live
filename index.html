@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8"/>
+	<meta name= "description" content= "Éste es un ejemplo de HTML5"/>
+	<meta name= "keywords" content= "HTML5, CSS3, JavaScript"/>
+	<title> Blog Personal </title>
+	<link rel="stylesheet" type="text/css" href="misestilos.css">
+	
+</head>
+
+<body>
+<div id="caja_principal">
+
+	<header id="cabecera">
+		<h1> Mi Blog Personal </h1>
+	</header>
+
+	<nav id="menu">
+		<ul>
+			<li>Inicio</li>
+			<li>Imágenes</li>
+			<li>Vídeos</li>
+			<li><button onclick="accion_1()" id="Bt1"> Contactos </button></li>
+		</ul>
+	</nav>
+
+	<section id="area_principal">
+		<article>  <!-- agrupará segmentos de información relacionados entre sí -->
+			<header>
+				<hgroup>
+					<h2>¿Quien soy?</h2>	
+					<h3>Introducción</h3>				
+				</hgroup>
+				<time datetime="2013-01-02" pubdate> Publicado el 12-01-2013 </time>
+			</header>
+
+			<p>Soy una persona capaz de analizar y resolver problemas de manera responsable y creativa. Con Conocimientos en lenguajes de programación, en paquete Office 365, AutoCAD e Inventor. Habil para utilizar argumentos que influyan en las ideas y acciones de los demás  y con la capacidad para trabajar en equipos interdisciplinarios en aras de conseguir los objetivos.</p>
+			
+			<figure> <!-- nos permiten encerrar estos elementos visuales y diferenciarlos de la información más relevante. -->
+
+				<img class="centrado" src="foto_p.png" width="300" height="400">
+				<figcaption>
+					Foto de la primera entrada
+				</figcaption>
+			</figure>
+
+			<footer>
+				<p> Comentarios (0) </p>
+			</footer>
+		</article>
+
+		<article>
+			<header>
+				<hgroup>
+					<h2>Formación Acadeimca</h2>
+					<h3>Primaria (2009-2014)</h3>					
+				</hgroup>
+				<time datetime="2013-01-15" pubdate> Publicado el 15-01-2013 </time>
+			</header>
+
+			Mi formación de nivel primaria estuvo dividida en dos partes: <br>1. Del grado 1ero a 2do estudie en el colegio "Gimnasio Moderno los Andes" una de las instituciones eductaivas de mi pueblo. Donde el nivel de enseñanza es de baja calidad. <br>2. Es por esto que mis padres deciden cambiarnos de colegio. Una institución académica privada llamada "Fervan campestre" donde aprendo y recibo todos las bases personales y académicas necesarias.    
+
+			<footer>
+				<p> Comentarios (0) </p>
+			</footer>
+		</article>
+
+		<article>  <!-- agrupará segmentos de información relacionados entre sí -->
+			<header>
+				<hgroup>
+					<h3>Secundaria (2014-2020)</h3>					
+				</hgroup>
+				<time datetime="2013-01-02" pubdate> Publicado el 12-01-2013 </time>
+			</header>
+
+			<p> En esta nueva institución logre un buen acoplamiento dando como resultado terminar mis estudios allí. Además gracias a los enlaces del colegio con la cancilleria Alemana logre realizar un intercambio que me ayudaria a crecer como persona y expandir mi conocimiento y percepción del mundo. <br> Cabe resaltar también que en el colegio realice algunos cursos como: <br>
+			1.  Fundamentos de Programación y Tecnologías Digitales yo Industrias Creativas Digitales (Ciclo 1)
+				Universidad del Norte (2020)
+			2.Diplomado Unity VR Class Unity. Bogotá, 2017
+			</p>
+		</article>
+
+		<article>  <!-- agrupará segmentos de información relacionados entre sí -->
+			<header>
+				<hgroup>
+					<h3> Pregrado(2022-20XX)</h3>					
+				</hgroup>
+				<time datetime="2013-01-02" pubdate> Publicado el 12-01-2013 </time>
+			</header>
+
+			<p> 
+				Actualmente soy estudiante de tercer semestre de ingenieria informatica de la Universidad de La Sabana. Y tengo intereses orientados a la ingeniería de software, ciber seguridad y el Big Data.<br>
+
+				Para proximos semestres, espero pasar todo sin ningun tipo de problema. Me gustaria irme de intercambio. Luego de graduarme, se en que me gustaria trabajar y adquirir experiencia apenas me gradue, Luego hare un master teniendo en cuenta todas las salidas con mayor profundidad.
+			</p>
+			<figure> <!-- nos permiten encerrar estos elementos visuales y diferenciarlos de la información más relevante. -->
+
+				<img class="centrado" src="image.jpg" width="300" height="200">
+				<figcaption>
+					Foto de la tercera entrada
+				</figcaption>
+			</figure>
+		</article>
+
+
+	</section>
+
+	<aside id="barra_lateral">
+		<blockquote> Archivo del Blog </blockquote> <!-- utilizado para mostrar información relacionada con cada artículo de la página -->
+		<details>
+			<summary>Vida académica</summary>
+			<p>primaria(2009-2014) <br>
+			   secundaria(2014-2020)</p>
+		</details>
+		<blockquote> Autor </blockquote>
+		<details>
+			<summary>Hecho por::</summary>
+			<p>Tomás Torres B.</p>
+		</details>
+
+
+	</aside>
+
+	<footer id="pie">
+		Tomás Torres Bogotá <br>
+		tomastobo@unisabana.edu.co  
+	</footer>
+
+</div>
+
+<script type="text/javascript">
+	function accion_1() {
+		confirm("Whatsapp: +57 3175474493")
+		alert("tomastobo@unisabana.edu.co");
+	}
+
+</script>
+</body>
+
+</html>
+
+<!--  para especificar que esta parte del texto debe ser 	
+	
+	<p> mi película favorita es <span contenteditable="true" spellcheck="false">Casablanca</span> 															</p>										preservada tal como se presenta -->
+	
